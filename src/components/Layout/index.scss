@@ -14,7 +14,7 @@
     bottom: 0;
     left: 120px;
     font-size: 18px;
-    font-family: 'La Belle Aurore';
+    font-family: 'La Belle Aurore',cursive;
 }
 
 .bottom-tag-html{
@@ -24,13 +24,13 @@
     width: 100%;
     will-change: contents;
     height: 90%;
-    min-width: 566px;
+    min-height: 566px;
     position: absolute;
     opacity: 0;
     top: 5%;
     margin: 0 auto;
     z-index: 1;
-    transform-style:preserve-3d ;
+    transform-style: preserve-3d;
     animation: fadeIn 1s forwards;
-    animation-delay:1s ;
+    animation-delay: 1s;
 }
