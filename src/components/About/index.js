@@ -5,7 +5,10 @@ import {
   faCss3,
   faDochub,
   faDocker,
+  faGit,
   faGitAlt,
+  faGitSquare,
+  faGithub,
   faHtml5,
   faJsSquare,
   faNode,
@@ -86,20 +89,20 @@ const About = () => {
             </div>
             <div className="face2">
               {/* <FontAwesomeIcon icon={faHtml5} color="#F06529" /> */}
-              <img src={postman} width="140px"/>
+              <img src={postman} width="60%"/>
             </div>
             <div className="face3">
               {/* <FontAwesomeIcon icon={faCss3} color="#28A4D9" /> */}
-              <img src={mongo} width="130px"/>
+              <img src={mongo} width="60%"/>
             </div>
             <div className="face4">
               <FontAwesomeIcon icon={faDocker} color="#5ED4F4" />
             </div>
             <div className="face5">
-            <img src={express} width="140px"/>
+            <img src={express} width="65%"/>
             </div>
             <div className="face6">
-              <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
+              <FontAwesomeIcon icon={faGithub} color="#EC4D28" />
             </div>
           </div>
         </div>
