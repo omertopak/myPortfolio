@@ -19,8 +19,14 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault()
 
+    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
     emailjs
-      .sendForm('gmail', 'template_poz4m5g', form.current, 'user_frVAPoqf2rwSIw2M6')
+      .sendForm('service_0ov4ftv', 'template_poz4m5g', form.current, 'frVAPoqf2rwSIw2M6')
       .then(
         () => {
           alert('Message successfully sent!')
