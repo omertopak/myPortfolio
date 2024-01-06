@@ -5,7 +5,7 @@ import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
-
+import LogoContact from '../../assets/images/main_logo.png'
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
   const form = useRef()
@@ -84,26 +84,13 @@ const Contact = () => {
             </form>
           </div>
         </div>
-        {/* <div className="info-map">
-          Omer Topak,
-          <br />
-          Ireland,
-          <br />
-          
-          <br />
-          <span>omertopak1@gmail.com</span>
-        </div> */}
-        {/* <div className="map-wrap">
-          <MapContainer center={[44.96366, 19.61045]} zoom={13}>
-            <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[44.96366, 19.61045]}>
-              <Popup>Sloba lives here, come over for a cup of coffee :)</Popup>
-            </Marker>
-          </MapContainer>
-        </div> */}
-        <div className="map-wrap">
-           <h2> !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</h2>
-        </div>
+        <div className="logo-main-div">
+          <img
+            className="logo-main"
+              src={LogoContact}
+              alt="contact"
+            />
+        </div>       
       </div>
       <Loader type="pacman" />
     </>

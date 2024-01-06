@@ -3,12 +3,12 @@ import LogoTitle from '../../assets/images/logo-s.png'
 import './index.scss';
 import { useEffect, useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters/index';
-import Logo from './Logo';
+// import Logo from './Logo';
 import Loader from 'react-loaders';
 
 const Home = ( ) => {
     const [letterClass, setLetterClass] = useState('text-animate')
-    const nameArray = ['o','m','e','r']
+    const nameArray = ['m','e','r']
     const jobArray = ['w','e','b',' ','d','e','v','e','l','o','p','e','r','.']
 
     useEffect(() => {
@@ -39,7 +39,12 @@ const Home = ( ) => {
                 <h2>Frontend Developer / Javascript Expert/...</h2>
                 <Link to="contact" className='flat-button'>CONTACT ME</Link>
             </div>
-            <Logo/>
+            {/* <Logo/> */}
+            <img
+            className="logo-main"
+              src={LogoTitle}
+              alt="JavaScript Developer Name, Web Developer Name"
+            />
         </div>
         <Loader type='pacman'/>
         </>

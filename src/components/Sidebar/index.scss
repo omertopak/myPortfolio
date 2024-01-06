@@ -78,7 +78,8 @@
         }
         a.portfolio-link{
             &:after{
-                content:'PORTFOLIO',
+                content:'PORTFOLIO';
+                font-size: 8px;
             }
         }
 

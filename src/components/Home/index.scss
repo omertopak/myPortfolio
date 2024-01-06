@@ -44,9 +44,12 @@
       opacity: 0;
       width: 32px;
       height: auto;
-      animation: rotateIn 1s linear both;
+      animation: rotateIn 2.5s linear both;
+      animation-timing-function:ease-in;
       animation-delay: 1.4s;
+      
     }
+    
   }
 
   h2 {
@@ -78,6 +81,20 @@
       color: #333;
     }
   }
+  .logo-main {
+        z-index: 0;
+        width: 450px;
+        height: 450px;
+        position: absolute;
+        top: calc((100vh - 500px)/2);
+        right: 10%;
+        // bottom: 0;
+        // left: auto;
+        margin: auto;
+        animation: fadeIn 5s linear both;
+        animation-delay: 1.4s;
+       
+      }
 }
 
 
@@ -105,25 +122,55 @@
       width: 125px;
     }
    
-  .logo-container {
+  .logo-main {
     position: relative;
-    width: 100px;
+    width: 50vw;
     height: auto;
     top: 50px;
-    right: 0;
-    box-sizing: border-box;
     margin: auto;
-    left: 0;
-
-    .svg {
-    position: absolute;
-    top: auto;
-    right: auto;
-    bottom: auto;
-    left: 0;
-    margin: auto;
-    }
+    padding: auto;
+    left: calc((50vw)/2);
   }
   
 }
+}
+@media screen and (max-width: 1200px) {
+  .tags,
+  .home-page h1:before,
+  .home-page h1:after {
+    display: none;
+  }
+
+ 
+
+  .home-page  {
+    .text-zone{ 
+    position: initial;
+    width: 100%;
+    transform: none;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+    .flat-button {
+      float: none;
+      display: block;
+      margin: 20px auto 0 auto;
+      width: 125px;
+    }
+   
+  .logo-main {
+    position: relative;
+    width: 50vw;
+    height: auto;
+    top: 50px;
+    margin: auto;
+    padding: auto;
+    left: calc((50vw)/2);
+  }
+  
+}
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
