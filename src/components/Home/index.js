@@ -46,7 +46,7 @@ const Home = ( ) => {
               alt="JavaScript Developer Name, Web Developer Name"
             />
         </div>
-        <Loader type='pacman'/>
+        <Loader type='line-scale'/>
         </>
     )
 }

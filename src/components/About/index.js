@@ -12,7 +12,6 @@ import {
   faHtml5,
   faJsSquare,
   faNode,
-  faNodeJs,
   faReact,
   faSass,
 } from '@fortawesome/free-brands-svg-icons'
@@ -59,55 +58,56 @@ const About = () => {
             watercolor artist, and tech-obsessed!!!
           </p>
         </div>
-
-        {/* <div className="stage-cube-cont">
-          <div className="cubespinner">
-            <div className="face1">
-              <FontAwesomeIcon icon={faBootstrap} color="#DD0031" />
-            </div>
-            <div className="face2">
-              <FontAwesomeIcon icon={faHtml5} color="#F06529" />
-            </div>
-            <div className="face3">
-              <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
-            </div>
-            <div className="face4">
-              <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
-            </div>
-            <div className="face5">
-              <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
-            </div>
-            <div className="face6">
-              <FontAwesomeIcon icon={faSass} color="#EC4D28" />
+        <div className='cube-div'>
+          <div className="stage-cube-cont1">
+            <div className="cubespinner">
+              <div className="face1">
+                <FontAwesomeIcon icon={faBootstrap} color="#DD0031" />
+              </div>
+              <div className="face2">
+                <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+              </div>
+              <div className="face3">
+                <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+              </div>
+              <div className="face4">
+                <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
+              </div>
+              <div className="face5">
+                <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
+              </div>
+              <div className="face6">
+                <FontAwesomeIcon icon={faSass} color="#EC4D28" />
+              </div>
             </div>
           </div>
-        </div> */}
-        <div className="stage-cube-cont">
-          <div className="cubespinner">
-            <div className="face1">
-              <FontAwesomeIcon icon={faNode} color="#68A063" />
-            </div>
-            <div className="face2">
-              {/* <FontAwesomeIcon icon={faHtml5} color="#F06529" /> */}
-              <img src={postman} width="60%"/>
-            </div>
-            <div className="face3">
-              {/* <FontAwesomeIcon icon={faCss3} color="#28A4D9" /> */}
-              <img src={mongo} width="60%"/>
-            </div>
-            <div className="face4">
-              <FontAwesomeIcon icon={faDocker} color="#5ED4F4" />
-            </div>
-            <div className="face5">
-            <img src={express} width="65%"/>
-            </div>
-            <div className="face6">
-              <FontAwesomeIcon icon={faGithub} color="#EC4D28" />
+          <div className="stage-cube-cont2">
+            <div className="cubespinner2">
+              <div className="face1">
+                <FontAwesomeIcon icon={faNode} color="#68A063" />
+              </div>
+              <div className="face2">
+                {/* <FontAwesomeIcon icon={faHtml5} color="#F06529" /> */}
+                <img src={postman} width="60%"/>
+              </div>
+              <div className="face3">
+                {/* <FontAwesomeIcon icon={faCss3} color="#28A4D9" /> */}
+                <img src={mongo} width="60%"/>
+              </div>
+              <div className="face4">
+                <FontAwesomeIcon icon={faDocker} color="#5ED4F4" />
+              </div>
+              <div className="face5">
+              <img src={express} width="65%"/>
+              </div>
+              <div className="face6">
+                <FontAwesomeIcon icon={faGithub} color="#EC4D28" />
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <Loader type="pacman" />
+      <Loader type="line-scale" />
     </>
   )
 }

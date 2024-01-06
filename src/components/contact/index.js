@@ -92,7 +92,7 @@ const Contact = () => {
             />
         </div>       
       </div>
-      <Loader type="pacman" />
+      <Loader type="line-scale" />
     </>
   )
 }
