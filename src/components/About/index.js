@@ -59,7 +59,7 @@ const About = () => {
           </p>
         </div>
         <div className='cube-div'>
-          <div className="stage-cube-cont1">
+          <div className="stage-cube-cont">
             <div className="cubespinner">
               <div className="face1">
                 <FontAwesomeIcon icon={faBootstrap} color="#DD0031" />
@@ -81,7 +81,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="stage-cube-cont2">
+          <div className="stage-cube-cont">
             <div className="cubespinner2">
               <div className="face1">
                 <FontAwesomeIcon icon={faNode} color="#68A063" />
