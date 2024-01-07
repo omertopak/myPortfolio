@@ -1,3 +1,5 @@
+@use '../../variables.scss' as vrbl;
+
 .contact-form {
     width: 100%;
     margin-top: 20px;
@@ -57,12 +59,12 @@
     }
   
     .flat-button {
-      color: #ffd700;
+      color: vrbl.$text-color;
       font-size: 11px;
       letter-spacing: 3px;
       text-decoration: none;
       padding: 8px 10px;
-      border: 1px solid #ffd700;
+      border: 1px solid vrbl.$text-color;
       float: left;
       border-radius: 4px;
       background: 0 0;
@@ -92,7 +94,7 @@
   
    
   .logo-main-div {
-    background-color: #ffd700;
+    background-color: vrbl.$text-color;
       .logo-main {
         z-index: 0;
         width: 450px;

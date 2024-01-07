@@ -1,3 +1,5 @@
+@use '../../variables.scss' as vrbl;
+
 .portfolio-page {
     padding-left: 100px;
     padding-right: 50px;
@@ -69,7 +71,7 @@
             padding: 0 23px;
             height: 40px;
             line-height: 34px;
-            border: 2px solid #ffd700;
+            border: 2px solid vrbl.$text-color;
             border-radius: 4px;
             font-size: 14px;
             color: #fff;
@@ -82,12 +84,12 @@
 
         .btn:hover {
             transform: translateY(-3px);
-            background: #ffd700;
+            background: vrbl.$text-color;
         }
 
         &:after {
             content: "";
-            background: linear-gradient(180deg, #ffd700, #000);
+            background: linear-gradient(180deg, vrbl.$text-color, #000);
             position: absolute;
             left: 0;
             right: 0;

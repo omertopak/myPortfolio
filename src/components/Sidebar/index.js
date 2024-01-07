@@ -13,7 +13,7 @@ import { useState } from 'react'
 const Sidebar = () => {
     
     const [showNav, setShowNav] = useState(false)
-    
+    const vrblcolor="#ff370"
     return ( 
     <div className='nav-bar'>
         <Link className='logo' to='/'>
@@ -33,12 +33,7 @@ const Sidebar = () => {
             <NavLink  onClick={()=>setShowNav(false)} exact="true" activeclassname="active" className="portfolio-link" to="/portfolio">
                 <FontAwesomeIcon icon={faBriefcase} color='#4d4d4e' />
             </NavLink>
-            <FontAwesomeIcon
-            onClick={()=>setShowNav(false)}
-            icon={faClose}
-            color='#ffd700'
-            size='3x'
-            className='close-icon'/>
+            <FontAwesomeIcon onClick={()=>setShowNav(false)} icon={faClose} color='#ffd700' size='3x' className='close-icon'/>
         </nav>
 
         <ul>

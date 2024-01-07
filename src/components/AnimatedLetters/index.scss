@@ -1,3 +1,5 @@
+@use '../../variables.scss' as vrbl;
+
 .text-animate {
     display: inline-block;
     opacity: 0;
@@ -15,7 +17,7 @@
   
     &:hover {
       animation: rubberBand 1s;
-      color: #ffd700;
+      color: vrbl.$text-color;
       cursor: default;
     }
   }

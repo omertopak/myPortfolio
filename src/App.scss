@@ -1,4 +1,5 @@
-$primary-color:#ffd700;
+@use './variables.scss' as vrbl;
+$primary-color: vrbl.$text-color;
 
 @import 'animate.css';
 @import '~loaders.css/src/animations/line-scale.scss';
