@@ -11,7 +11,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-
+    padding: 50px;
+    margin-bottom: 50px;
   .stage-cube-cont {
     width: 50%;
     height: 200px;
@@ -33,12 +34,13 @@
     transform-style: preserve-3d;
     transform-origin: 100px 100px 0;
     margin-left: calc(50% - 100px);
-    margin-bottom: 0;
-    padding-bottom: 0;
+    // margin-bottom: 0;
+    // padding-bottom: 0;
     div {
       position: absolute;
       width: 200px;
       height: 200px;
+      margin-bottom: 200px;
       border: 1px solid #ccc;
       background: rgba(255, 255, 255, 0.702);
       // background: rgba(255, 255, 255, 0.4);
@@ -87,6 +89,7 @@
   transform-style: preserve-3d;
   transform-origin: 100px 100px 0;
   margin-left: calc(50% - 100px);
+  // padding-bottom: 20px;
 
   div {
     position: absolute;
@@ -157,34 +160,6 @@
     transform: rotateY(360deg);
   }
 }
-  
-  @media screen and (max-width: 1200px) {
-    .cube-div{
-      position: initial;
-      width: 90%;
-      height: 0%;
-      overflow: visible;
-      gap:50px;
-      margin: auto;
-      margin-top: 90px;
-    }
-  }
-  @media screen and (max-width: 500px) {
-    .cube-div{
-      justify-content: center;
-      padding: auto;
-    .stage-cube-cont {
-      width: 50%;
-      height: 150px;
-      top: 0;
-      padding: auto;
-      margin: auto;
-      overflow:visible; 
-      
-    }
-   
-  }
-  
     
     .cubespinner {
       animation-name: spincube;
@@ -291,4 +266,35 @@
     color: #ec4d28;
   }
   }
+  
+
+  
+  @media screen and (max-width: 1200px) {
+    .cube-div{
+      position: initial;
+      width: 90%;
+      height: auto;
+      overflow: visible;
+      gap:50px;
+      margin: auto;
+      margin-top: 90px;
+    }
   }
+  @media screen and (max-width: 500px) {
+    .cube-div{
+      justify-content: center;
+      padding: auto;
+      width: 100%;
+      height: auto;
+    .stage-cube-cont {
+      width: 50%;
+      height: 150px;
+      top: 0;
+      padding: auto;
+      margin: auto;
+      overflow:visible; 
+      
+    }
+   
+  }
+}
