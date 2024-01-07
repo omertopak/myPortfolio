@@ -15,6 +15,7 @@
     margin: 0;
     font-family: 'Coolvetica';
     font-weight: 400;
+    opacity: 1;
 
     &:before {
       content: '<h1>';
@@ -24,7 +25,7 @@
       position: absolute;
       margin-top: -40px;
       left: -15px;
-      opacity: 0.6;
+      opacity: 0;
     }
 
     &:after {
@@ -45,7 +46,7 @@
       width: 32px;
       height: auto;
       animation: rotateIn 2.5s linear both;
-      animation-timing-function:ease-in;
+      // animation-timing-function:ease-in;
       animation-delay: 1.4s;
       
     }
@@ -53,7 +54,7 @@
   }
 
   h2 {
-    color: #8d8d8d;
+    color: #848484;
     margin-top: 20px;
     font-weight: 400;
     font-size: 11px;
@@ -73,7 +74,7 @@
     border: 1px solid #ffd700;
     margin-top: 25px;
     float: left;
-    animation: fadeInAnimation 1s 1.8s backwards;
+    animation: fadeIn Animation 1s 1.8s backwards;
     white-space: nowrap;
 
     &:hover {
@@ -88,12 +89,8 @@
         position: absolute;
         top: calc((100vh - 500px)/2);
         right: 10%;
-        // bottom: 0;
-        // left: auto;
         margin: auto;
-        animation: fadeIn 5s linear both;
         animation-delay: 1.4s;
-       
       }
 }
 
@@ -124,6 +121,7 @@
    
   .logo-main {
     position: relative;
+    max-width: 500px;
     width: 50vw;
     height: auto;
     top: 50px;
@@ -134,7 +132,7 @@
   
 }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 500px) {
   .tags,
   .home-page h1:before,
   .home-page h1:after {
