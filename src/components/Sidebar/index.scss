@@ -64,23 +64,28 @@
             }
             &:first-child{
                 &:after{
-                    content:'HOME'
+                    content:'HOME';
+                    color: #737374;
+                    
                 }
             }
         }
         a.about-link{
             &:after{
-                content:'ABOUT'
+                content:'ABOUT';
+                color: #737374;
             }
         }
         a.contact-link{
             &:after{
-                content:'CONTACT'
+                content:'CONTACT';
+                color: #737374;
             }
         }
         a.portfolio-link{
             &:after{
-                content:'PORTFOLIO';
+                content:'PORTFOLIO';;
+                color: #737374;
                 font-size: 8px;
             }
         }

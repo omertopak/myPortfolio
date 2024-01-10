@@ -282,10 +282,11 @@
   }
   @media screen and (max-width: 500px) {
     .cube-div{
-      justify-content: center;
+      justify-content:left;
       padding: auto;
-      width: 100%;
+      width: 70%;
       height: auto;
+      // margin-left: 20px;
     .stage-cube-cont {
       width: 50%;
       height: 150px;
