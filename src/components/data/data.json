@@ -11,6 +11,12 @@
             "title": "Library App",
             "description": "React, Styled Components",
             "url": "https://celebrated-kitsune-c14142.netlify.app/"
+        },
+        {
+            "cover": "../portfolio_img/03.png",
+            "title": "Blog App",
+            "description": "React, MUI, MongoDB, ExpressJS",
+            "url": "https://inkblogapp.netlify.app/"
         }
       
     ]
