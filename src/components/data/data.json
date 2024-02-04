@@ -1,7 +1,7 @@
 {
     "portfolio": [
         {
-            "cover": "../portfolio_img/04.jpeg",
+            "cover": "../../../public/portfolio_img/04.jpeg",
             "title": "Stock App",
             "description": "React, MUI, MongoDB, ExpressJS",
             "url": "https://stockappp.netlify.app/"
