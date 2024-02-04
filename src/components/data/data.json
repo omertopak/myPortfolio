@@ -1,26 +1,26 @@
 {
     "portfolio": [
         {
-            "cover": "../../../public/portfolio_img/04.jpeg",
+            "cover": "../portfolio_img/04.png",
             "title": "Stock App",
             "description": "React, MUI, MongoDB, ExpressJS",
             "url": "https://stockappp.netlify.app/"
         },
         {
-            "cover": "../portfolio_img/03.jpeg",
+            "cover": "../portfolio_img/03.png",
             "title": "Blog App",
             "description": "React, MUI, MongoDB, ExpressJS",
             "url": "https://inkblogapp.netlify.app/"
         },
         
         {
-            "cover": "../portfolio_img/02.jpeg",
+            "cover": "../portfolio_img/02.png",
             "title": "Library App",
             "description": "React, Styled Components",
             "url": "https://celebrated-kitsune-c14142.netlify.app/"
         },
         {
-            "cover": "/portfolio_img/01.jpeg",
+            "cover": "../portfolio_img/01.png",
             "title": "Games App",
             "description": "React, JSX, Bootstrap",
             "url": "https://ubiquitous-lily-955e36.netlify.app/"
