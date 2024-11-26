@@ -1,9 +1,15 @@
 {
     "portfolio": [
         {
+            "cover": "../portfolio_img/twitter.png",
+            "title": "Twitter Clone",
+            "description": "React, MUI, MongoDB, ExpressJS, ",
+            "url": "https://twitter-app-x.netlify.app/"
+        },
+        {
             "cover": "../portfolio_img/04.png",
             "title": "Stock App",
-            "description": "React, MUI, MongoDB, ExpressJS",
+            "description": "React, MUI, ",
             "url": "https://stockappp.netlify.app/"
         },
         {

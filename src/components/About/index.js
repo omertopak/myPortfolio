@@ -1,13 +1,8 @@
 import { useEffect, useState } from 'react'
 import {
-  faAngular,
   faBootstrap,
   faCss3,
-  faDochub,
   faDocker,
-  faGit,
-  faGitAlt,
-  faGitSquare,
   faGithub,
   faHtml5,
   faJsSquare,

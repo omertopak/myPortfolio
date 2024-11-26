@@ -75,7 +75,7 @@
             border-radius: 4px;
             font-size: 14px;
             color: #fff;
-            background: transparent;
+            background: #3f3f3f;
             text-transform: uppercase;
             font-weight: 700;
             transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -89,7 +89,7 @@
 
         &:after {
             content: "";
-            background: linear-gradient(180deg, vrbl.$text-color, #000);
+            background: linear-gradient(180deg, vrbl.$text-color2, #000000);
             position: absolute;
             left: 0;
             right: 0;
