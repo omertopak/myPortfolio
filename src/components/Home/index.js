@@ -40,11 +40,11 @@ const Home = ( ) => {
                 <Link to="contact" className='flat-button'>CONTACT ME</Link>
             </div>
             {/* <Logo/> */}
-            <img
+            {/* <img
             className="logo-main"
               src={LogoTitle}
               alt="JavaScript Developer Name, Web Developer Name"
-            />
+            /> */}
         </div>
         <Loader type='line-scale'/>
         </>
